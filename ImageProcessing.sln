@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageProcessing", "ImageProcessing\ImageProcessing.vcxproj", "{730ABE74-3EF7-4760-93C4-40474C2CF4F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Debug|x64.ActiveCfg = Debug|x64
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Debug|x64.Build.0 = Debug|x64
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Debug|x86.Build.0 = Debug|Win32
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Release|x64.ActiveCfg = Release|x64
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Release|x64.Build.0 = Release|x64
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Release|x86.ActiveCfg = Release|Win32
+		{730ABE74-3EF7-4760-93C4-40474C2CF4F5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81F0E8F9-BC48-4893-94C6-481342349186}
+	EndGlobalSection
+EndGlobal
