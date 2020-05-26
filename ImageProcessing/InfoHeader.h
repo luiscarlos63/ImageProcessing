@@ -22,21 +22,24 @@ public:
 	InfoHeader(const InfoHeader&);
 
 	//metodos publicos
-	bool Read(ifstream& file);
-	bool Write(ofstream& file);
+	void Read(ifstream& file);
+	void Write(ofstream& file);
+	void validate();
 	//gets
-	uint32_t get_ImageSize() { return this->ImageSize; }
-	//uint16_t get_bitsPpixel() { return this->bitsPpixel; }
+	uint32_t get_ImageSize() { return ImageSize; }
+	uint32_t get_width() { return width; }
+	uint32_t get_heigth() { return heigth; }
 
 	//sets
 
 	//friends
 	friend ostream& operator<<(ostream& os, const InfoHeader& ihdr);
 
+
 private:
 	uint32_t size;
 	uint32_t width;
-	uint32_t heith;
+	uint32_t heigth;
 	uint16_t planes;
 	uint16_t bitsPpixel;
 	uint32_t compression;

@@ -41,14 +41,15 @@ int main(char argv, char* argc[])
 			//teste da leitura do InfoHeader do BMP
 			info.Read(my_file);
 			cout << my_file.tellg() << endl;
-		
+			my_file.close();
 			cout << info;
 
 			my_write_file.open(sampleWrite);
+			if (my_write_file.fail())
+				throw("cant open file : main.c");
 		
-		
-			if (!info.Write(my_write_file))
-				throw("main: error in write to file");
+			info.Write(my_write_file);
+			my_write_file.close();
 		}
 		catch (char* str)
 		{
